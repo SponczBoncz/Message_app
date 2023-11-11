@@ -14,7 +14,7 @@ def start():
             print(f"{x} nie jest dozwolone, musisz wybrać Z lub P!")
 
 #ZAKŁĄDAMY BAZĘ message_db
-#
+
 #KOMENDY SQL do P:
 # CREATE TABLE users (id serial PRIMARY KEY, username varchar(255) UNIQUE, hashed_password varchar(80));
 # CREATE TABLE messages (id serial PRIMARY KEY, from_id int REFERENCES users(id) ON DELETE CASCADE, to_id int REFERENCES users(id) ON DELETE CASCADE, creation_date timestamp DEFAULT current_timestamp, text varchar(255));
