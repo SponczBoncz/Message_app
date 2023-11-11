@@ -1,5 +1,4 @@
 # created by virtualenv automatically
-venv/bin
 .idea/
 *.pyc
 # Default ignored files
